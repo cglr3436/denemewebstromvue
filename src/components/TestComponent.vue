@@ -6,7 +6,7 @@
             <p >{{user.adi}}</p>
             <p>{{user.soyadi}}</p>
         </div>
-
+        <!-- deneme -->
 <!--        <p v-text="user.adi"></p>-->
         <button v-on:click="greet">AC / KAPA </button>
     </div>
