@@ -1,18 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+<!--    <img alt="Vue logo" src="./assets/logo.png">-->
+<!--    <HelloWorld msg="Welcome to Your Vue.js App"/>-->
+
+    <TestComponent msg="test Vue App"/>
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import TestComponent from './components/TestComponent.vue'
 
 export default {
   name: 'app',
-  components: {
-    HelloWorld
-  }
+  components: {TestComponent}
+
 }
 </script>
 
@@ -25,4 +28,6 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+
 </style>
